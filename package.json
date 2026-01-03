@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "pre-build": "next build",
-    "build": "pnpm run pre-build && bun build ./build.js --compile --outfile dot-desktop-generator",
+    "build": "pnpm run pre-build && ./build.sh",
     "start": "next start",
     "lint": "eslint"
   },

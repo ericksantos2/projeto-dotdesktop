@@ -1,0 +1,9 @@
+#!/bin/sh
+# Descobre onde o AppImage foi montado
+HERE="$(dirname "$(readlink -f "${0}")")"
+
+# Define a porta (opcional)
+export PORT=3000
+
+# Executa o servidor usando o Node do sistema ou o que você embutiu
+exec node "$HERE/app/.next/standalone/server.js"
