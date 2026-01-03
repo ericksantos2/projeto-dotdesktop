@@ -40,4 +40,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-dot-desktop-generator
+dot-desktop-generator.AppImage
