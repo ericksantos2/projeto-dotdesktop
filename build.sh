@@ -10,3 +10,4 @@ cp -r ../example/* ./
 cd ../
 ./appimagetool-x86_64.AppImage ./DotDesktop.AppDir
 rm -rf ./DotDesktop.AppDir
+mv ./DotDesktopGenerator-x86_64.AppImage ./dot-desktop-generator.AppImage
